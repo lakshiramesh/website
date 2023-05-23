@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f3;
+
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  font-weight: bold;
+  }
+
+form {
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+label {
+  font-size: 19px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #12e47f;
+  margin-right: 10px;
+  width: 100px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #192124;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+	background-image: url("cloud.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+#weather {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#weather > div {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(239, 246, 239);
+}
+#weather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.weather-item {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0e5e5;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-item h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather-item p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.weather-item img {
+  width: 100px;
+  height: 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background-color: #0b0a0b;
+  background-size: 100px;
+  padding: 5px;
+  width: 100%;
+  margin:0px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+li {
+  display:inline;
+  margin-right: 150px;
+}
+
+a {
+  color: rgb(249, 243, 243);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+
+
+
+
+  
